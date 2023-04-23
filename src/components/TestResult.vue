@@ -83,13 +83,13 @@ section {
 }
 .lightning-left {
   position: absolute;
-  left: -1em;
-
+  left: -2em;
+  bottom: -7em;
   z-index: 20;
 }
 .lightning-right {
   position: absolute;
-  right: -1em;
+  right: -2em;
   transform: scale(-1, -1);
   top: -2em;
   z-index: 20;
@@ -159,6 +159,7 @@ h2 {
   position: relative;
 }
 .call {
+  position: relative;
   display: flex;
   gap: 10px;
   background: #eb1b00;
