@@ -18,7 +18,7 @@
       </p>
       <img src="@/assets/brain-diagram-img.png" alt="brain diagram image" />
       <main-button @click="$router.push('/iq-test')" style="margin-top: -35px"
-        >пойти тест</main-button
+        >пройти тест</main-button
       >
     </div>
   </section>
